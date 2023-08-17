@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout.KalkulatorKaloriActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kalkulator_kalori_title"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="@color/dongker_blue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pilih_jenis_olahraga"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/dongker_blue"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupOlahraga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioBicep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bicep_curl" />
+
+            <RadioButton
+                android:id="@+id/radioCrossover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crossover_chest" />
+
+            <RadioButton
+                android:id="@+id/radioDumbellOverhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dumbell_overhead" />
+
+            <RadioButton
+                android:id="@+id/radioGerakanSenam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gerakan_senam" />
+
+            <RadioButton
+                android:id="@+id/radioJumpingJack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jumping_jack" />
+
+            <RadioButton
+                android:id="@+id/radioPullDownLow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pull_down_low" />
+        </RadioGroup>
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/heightInputLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:paddingTop="12dp"-->
+<!--            android:hint="@string/masukkan_tinggi_badan_cm"-->
+<!--            android:inputType="numberDecimal">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/heightEditText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:digits="0123456789."-->
+<!--            />-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/masukkan_data"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/dongker_blue"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/weightInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:hint="@string/enter_weight"
+            android:inputType="numberDecimal">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/weightEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789."
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/repetitionsInputLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:paddingTop="8dp"-->
+<!--            android:hint="@string/masukkan_repitisi"-->
+<!--            android:inputType="number">-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:id="@+id/repetitionsEditText"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:digits="0123456789"-->
+<!--                android:maxLines="1"-->
+<!--                android:maxLength="2"-->
+<!--                />-->
+
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/setsInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:hint="@string/masukkan_set"
+            android:inputType="number">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/setsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:maxLines="1"
+                android:maxLength="2"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jenis_kelamis"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/dongker_blue"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pria" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/wanita" />
+        </RadioGroup>
+
+
+        <Button
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/dongker_blue"
+            android:text="@string/hitung_kalori"/>
+
+        <TextView
+            android:id="@+id/caloriesBurnedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/dongker_blue"
+            android:text="@string/kalori_terbakar_0"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

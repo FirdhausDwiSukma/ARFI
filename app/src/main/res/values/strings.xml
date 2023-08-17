@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">ARFI</string>
+    <string name="logo_arfi">Logo Arfi</string>
+    <string name="alert_title">No Internet Connection</string>
+    <string name="alert_desc">Do you want to exit ?</string>
+    <string name="dialog_button_splash">Yes</string>
+    <string name="dialog_Negbutton_splash">Check Wifi</string>
+    <string name="text_label_2">Tentang</string>
+    <string name="text_label_1">Beranda</string>
+    <string name="title_home">Selamat %1s!</string>
+    <string name="about_fragmet">Hello about fragment</string>
+    <string name="image_carosel">image carosel</string>
+    <string name="img_content">img_content</string>
+    <string name="dumbell">Dumbell</string>
+    <string name="title_carousel">Sudahkah Olahraga?</string>
+    <string name="olahraga_untuk_kamu">Olahraga Untuk Kamu</string>
+    <string name="content_description_media">Dumbell\n</string>
+    <string name="title_card_workout">Bicep Curl</string>
+    <string name="secondary_text">Dumbell</string>
+    <string name="button_mulai">Mulai</string>
+    <string name="supporting_text">blamelamdla\n</string>
+    <string name="profil_pengembangan_aplikasi">Tentang Developer ARFI</string>
+    <string name="title_about">Augmented Reality Fitness\nARFI</string>
+    <string name="arrow">arrow</string>
+    <string name="desc_about_aplikasi">ARFI merupakan aplikasi berbasis AR dengan menggunakan fitur body tracking sebagai pelatih olahraga virtual dalam membantu kalian dalam workout atau gym</string>
+    <string name="saran_alat_workout">Alat Workout</string>
+    <string name="deskripsi_workout">Deskripsi Workout</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="developer_arfi">Developer ARFI</string>
+    <string name="firdhaus_dwi_sukma">Firdhaus Dwi Sukma</string>
+    <string name="m_naufal">M. Naufal Fauzi</string>
+    <string name="pembimbing_proyek_akhir">Pembimbing Proyek Akhir</string>
+    <string name="fat_hah_noor_prawita_st_mt">Fat’hah Noor Prawita, ST., MT.</string>
+    <string name="contact_us">Hubungi Kami</string>
+    <string name="email_arfitness62_gmail_com">email : arfitness62@gmail.com</string>
+    <string name="video_tutorial_gerakan">Video Tutorial Gerakan</string>
+    <string name="pemberitahuan">Intruksi</string>
+    <string name="desc_informasi_kalori">
+        Kalori yang terbakar ketika melakukan fitness atau workout :\n
+        1. 12 repitisi 1 set =  \n
+        2. 12 repitisi 2 set =  \n
+        3. 12 repitisi 3 set =  \n
+    </string>
+    <string-array name="greeting">
+        <item>Pagi</item>
+        <item>Siang</item>
+        <item>Sore</item>
+        <item>Malam</item>
+    </string-array>
+    <string-array name="description">
+        <item>Pers dumbbell di atas kepala adalah salah satu latihan tubuh bagian atas terbaik untuk mendapatkan otot dan kekuatan keseluruhan dibahu.</item>
+        <item>Untuk melakukan biceps curl dengan dumbbell, pegang dumbbell dengan telapak tangan menghadap ke atas. Keritingkan beban secara perlahan dengan menekuk siku, jaga agar siku tetap dekat dengan tubuh. Kemudian perlahan-lahan turunkan beban ke posisi awal.</item>
+        <item>Low pull adalah latihan di gym yang dilakukan dengan menggunakan alat latihan seperti mesin lat pull-down atau pull-up bar. Posisi tubuh biasanya menghadap ke arah mesin atau bar dengan tangan menggenggam pegangan alat atau bar dengan posisi tangan lebar. Pada latihan low pull, tujuan utama adalah menarik pegangan atau bar ke arah bawah atau ke bawah tubuh, dengan mengaktifkan otot-otot punggung dan lengan.</item>
+        <item>Jumping jack adalah olahraga yang dilakukan dengan menggerakkan seluruh bagian tubuh, termasuk tubuh bagian bawah, tubuh bagian atas, dan otot perut. Dengan demikian, rutin melakukan jumping jack dapat membantu meningkatkan kekuatan otot.</item>
+        <item>Dengan melakukan olah raga senam secara teratur akan membuat kesehatan dan perkembangan fisik menjadi baik dan seimbang. Diyakini bahwa terdapat sumbangan yang sangat besar dari olah raga senam dalam meningkatkan self-concept konsep diri.</item>
+        <item>Cross-over chest kabel adalah gerakan isolasi yang menggunakan tumpukan kabel untuk membangun otot dada yang lebih besar dan lebih kuat. Karena dilakukan dengan katrol yang dapat disesuaikan, Anda dapat menargetkan bagian dada yang berbeda dengan mengatur katrol pada tingkat yang berbeda.</item>
+    </string-array>
+    <string-array name="kategori_alat">
+        <item>Dumbell</item>
+        <item>Dumbell</item>
+        <item>Tidak pakai alat</item>
+        <item>Pull Down Machine</item>
+        <item>Cable Crossover</item>
+    </string-array>
+    <string-array name="title_workout">
+        <item>Dumbbell Overhead</item>
+        <item>Bicep Curl</item>
+        <item>Pull Down Low</item>
+        <item>Jumping Jack</item>
+        <item>Gerakan Senam</item>
+        <item>Crossover Chest</item>
+    </string-array>
+    <string-array name="dialog_workout">
+        <item>
+            Langkah-langkah memakai filter workout\n
+            1. Pilihlah filter bernama Dumbbell Overhead.\n
+            2. Filter urutan ke-5 dari sebelah kiri.\n
+            3. Untuk Nama Filter berada diatas.\n
+            4. Wajib terlihat seluruh badan tampak depan.\n
+            5. Wajib menggunakan kamera depan.\n
+            6. Gerakan dilakukan sebanyak 12 repitisi 3 set.\n
+            7. Cara mereset hitungan dengan menggeser filter ke kanan/kiri.
+        </item>
+        <item>Langkah-langkah memakai filter workout\n
+            1. Pilihlah filter bernama Bicep Curl.\n
+            2. Filter urutan ke-6 dari sebelah kiri.\n
+            3. Untuk Nama Filter berada diatas.\n
+            4. Wajib terlihat seluruh badan tampak depan.\n
+            5. Wajib menggunakan kamera depan.\n
+            6. Gerakan dilakukan sebanyak 12 repitisi 3 set.\n
+            7. Cara mereset hitungan dengan menggeser filter ke kanan/kiri.
+        </item>
+        <item>
+            Langkah-langkah memakai filter workout\n
+            1. Pilihlah filter bernama Pull Down Low.\n
+            2. Filter urutan ke-1 dari sebelah kiri.\n
+            3. Untuk Nama Filter berada diatas.\n
+            4. Wajib terlihat seluruh badan tampak depan.\n
+            5. Posisi Handphone seperti pada video tutorial.\n
+            6. Wajib menggunakan kamera depan.\n
+            7. Gerakan dilakukan sebanyak 12 repetisi 3 set.\n
+            8. Cara mereset hitungan dengan menggeser filter ke kanan/kiri.
+        </item>
+        <item>Langkah-langkah memakai filter workout\n
+            1. Pilihlah filter bernama Jumping Jack.\n
+            2. Filter urutan ke-4 dari sebelah kiri.\n
+            3. Untuk Nama Filter berada diatas.\n
+            4. Wajib terlihat seluruh badan tampak depan.\n
+            5. Wajib menggunakan kamera depan.\n
+            6. Gerakan dilakukan sebanyak 12 repitisi 3 set.\n
+            7. Cara mereset hitungan dengan menggeser filter ke kanan/kiri.
+        </item>
+        <item>
+            Langkah-langkah memakai filter workout\n
+            1. Pilihlah filter bernama Gerakan Senam.\n
+            2. Filter urutan ke-2 dari sebelah kiri.\n
+            3. Untuk Nama Filter berada diatas.\n
+            4. Wajib terlihat seluruh badan tampak depan.\n
+            5. Wajib menggunakan kamera depan.\n
+            6. Gerakan dilakukan sebanyak 12 repitisi 3 set.\n
+            7. Cara mereset hitungan dengan menggeser filter ke kanan/kiri.
+        </item>
+        <item>
+            Langkah-langkah memakai filter workout\n
+            1. Pilihlah filter bernama Crossover Chest.\n
+            2. Filter urutan ke-3 dari sebelah kiri.\n
+            3. Untuk Nama Filter berada diatas.\n
+            4. Wajib terlihat seluruh badan tampak depan.\n
+            5. Wajib menggunakan kamera depan.\n
+            6. Gerakan dilakukan sebanyak 12 repitisi 3 set.\n
+            7. Cara mereset hitungan dengan menggeser filter ke kanan/kiri.
+        </item>
+    </string-array>
+    <string-array name="id_video_workout">
+        <item>2932vSnSvfE</item>
+        <item>IDCB3DId1ic</item>
+        <item>Ob9lqOavUiE</item>
+        <item>h9mBj_GHRqE</item>
+        <item>PtZcFsrMs8Y</item>
+        <item>YGj0XpTmfxE</item>
+    </string-array>
+    <string-array name="artikel_workout">
+        <item>https://www.verywellfit.com/how-to-do-the-dumbbell-overhead-press-3498298</item>
+        <item>https://www.fimela.com/beauty/read/3844090/bicep-curl-cara-mengecilkan-lengan</item>
+        <item>https://style.tribunnews.com/2022/11/14/cara-membentuk-perut-six-packs-lakukan-seated-cable-rows-dijamin-badan-ideal-seperti-edin-dzeko?page=all</item>
+        <item>https://gymfitnessindo.com/pengertian-dan-manfaat-jumping-jack</item>
+        <item>https://www.bola.com/ragam/read/4959653/macam-macam-bentuk-gerak-dasar-ayunan-lengan-dalam-senam-irama</item>
+        <item>https://alatfitnessbali.com/membentuk-otot-dada-dengan-cable-cross-over</item>
+    </string-array>
+
+    <string name="app_name_portrait_locked">CameraKit Sample Portrait</string>
+    <string name="camera_kit_unsupported">CameraKit is not supported on this device</string>
+    <string name="camera_kit_error">Error in Camera Kit</string>
+    <string name="required_permissions_not_granted">Required permissions not granted by the user: %s</string>
+    <string name="available_lenses">Available lenses</string>
+    <string name="prefetch_lenses">Prefetch lenses</string>
+    <string name="update_api_token">Update API token</string>
+    <string name="update_lens_groups">Update lens groups</string>
+    <string name="trigger_legal_prompt">Trigger legal prompt</string>
+    <string name="lens_groups">Lens groups</string>
+    <string name="version_info">v%s (%d)</string>
+    <string name="mini_preview_off">Mini Preview OFF</string>
+    <string name="mini_preview_on">Mini Preview ON</string>
+    <string name="capture_photo_off">Photo Capture OFF</string>
+    <string name="capture_photo_on">Photo Capture ON</string>
+    <string name="ring_flash_off">Ring Flash OFF</string>
+    <string name="ring_flash_on">Ring Flash ON</string>
+    <string name="custom_lenses_carousel_off">Custom Carousel OFF</string>
+    <string name="custom_lenses_carousel_on">Custom Carousel ON</string>
+    <string name="mute_audio_off">Mute Audio OFF</string>
+    <string name="mute_audio_on">Mute Audio ON</string>
+    <string name="diagnostics_off">Diagnostics OFF</string>
+    <string name="diagnostics_on">Diagnostics ON</string>
+    <string name="dump_diagnostics">Dump</string>
+    <string name="share_video">Share video</string>
+    <string name="share_image">Share image</string>
+    <string name="button_camera_flip_content_description">Flip camera</string>
+    <string name="button_lens_activate_content_description">Activate lenses</string>
+    <string name="ar_core_take_photo_unsupported">ARCore does not support capturing photo.</string>
+    <string name="reset">Reset</string>
+    <string name="api_token">API token</string>
+
+    <string name="transition_shared_dummy">transition_shared_dummy</string>
+    <string name="lock_portrait_orientation">lock_portrait_orientation</string>
+    <string name="title_activity_preview">PreviewActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="batal">Batal</string>
+    <string name="mulai">Mulai</string>
+    <string name="artikel_gerakan_gym">Artikel Gerakan Gym</string>
+    <string name="artikel_gerakan_gym_workout"><![CDATA[Artikel Gerakan Gym & Workout]]></string>
+    <string name="artikel">Artikel</string>
+    <string name="kalkulator_kalori">Kalkulator Kalori</string>
+    <string name="informasi_kalori">Informasi Kalori</string>
+    <string name="enter_weight">Masukan Berat Badan (kg)</string>
+    <string name="masukkan_repitisi">Masukkan Jumlah Repitisi</string>
+    <string name="masukkan_set">Masukkan Jumlah Set</string>
+    <string name="invalid_input">Invalid input</string>
+    <string name="calories_burned">Kalori Terbakar: %1$s</string>
+    <string name="hitung_kalori">Hitung Kalori</string>
+    <string name="kalori_terbakar_0">Kalori Terbakar: 0</string>
+    <string name="kalkulator_kalori_title">Kalkulator Kalori</string>
+    <string name="masukkan_tinggi_badan_cm">Masukkan Tinggi Badan (cm)</string>
+    <string name="pria">Pria</string>
+    <string name="wanita">Wanita</string>
+    <string name="pilih_jenis_olahraga">Pilih Jenis Olahraga</string>
+    <string name="bicep_curl">Bicep Curl</string>
+    <string name="crossover_chest">Crossover Chest</string>
+    <string name="dumbell_overhead">Dumbell Overhead</string>
+    <string name="gerakan_senam">Gerakan Senam</string>
+    <string name="jumping_jack">Jumping Jack</string>
+    <string name="pull_down_low">Pull Down Low</string>
+    <string name="masukkan_data">Masukkan Data</string>
+    <string name="jenis_kelamis">Jenis Kelamis</string>
+
+</resources>

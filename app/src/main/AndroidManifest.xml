@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/arfi_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ARFI"
+        tools:targetApi="31">
+        <activity
+            android:name=".layout.KalkulatorKaloriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".layout.DetailArtikelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".layout.ArtikelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cameraKit.PreviewActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.snap.camerakit.api.token"
+            android:value="eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNjgxMzY3ODczLCJzdWIiOiIyZWU3NDgwNy1iNDZjLTRkOTYtYjhlYy0yMDAxMGRhN2ZhN2V-U1RBR0lOR35lZmY3NDQ0Yi0xNDJiLTRhYzEtYTljZi0yYzY3NmM1MTE5NDYifQ.45fijIAk9BsR45j18nIe71Jtw2L3zUNB28BxbxoG4cs" />
+
+        <activity
+            android:name=".cameraKit.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".layout.AboutDevActivity"
+            android:exported="false" />
+        <activity
+            android:name=".layout.DetailPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

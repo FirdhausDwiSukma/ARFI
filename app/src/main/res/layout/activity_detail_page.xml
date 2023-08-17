@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_page_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_detail_page"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:contentDescription="@string/img_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/contoh"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/back_button_detail_page"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/arrow_back"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/img_content" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/img_detail_page">
+
+                <TextView
+                    android:id="@+id/title_workout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="18dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/title_card_workout"
+                    android:textColor="@color/dongker_blue"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toTopOf="@+id/saran_alat"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/saran_alat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="18dp"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:text="@string/saran_alat_workout"
+                    android:textColor="@color/dongker_blue"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title_workout" />
+
+                <ImageView
+                    android:id="@+id/icon_saran"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="4dp"
+                    android:contentDescription="@string/img_content"
+                    android:src="@drawable/dumbell_icon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/saran_alat" />
+
+                <TextView
+                    android:id="@+id/desc_saran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/dumbell"
+                    android:textColor="@color/dongker_blue"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@+id/icon_saran"
+                    app:layout_constraintTop_toBottomOf="@+id/saran_alat"
+                    tools:ignore="SmallSp" />
+
+                <TextView
+                    android:id="@+id/title_desc_workout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="18dp"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:text="@string/deskripsi_workout"
+                    android:textColor="@color/dongker_blue"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/icon_saran" />
+
+                <TextView
+                    android:id="@+id/desc_detail_workout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="18dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center_horizontal"
+                    android:text="@string/lorem_ipsum"
+                    android:textColor="@color/dongker_blue"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/title_desc_workout"
+                    tools:targetApi="o" />
+
+<!--                <TextView-->
+<!--                    android:id="@+id/title_kalori_workout"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="18dp"-->
+<!--                    android:layout_marginTop="12dp"-->
+<!--                    android:layout_marginEnd="18dp"-->
+<!--                    android:text="@string/informasi_kalori"-->
+<!--                    android:fontFamily="@font/poppins_semi_bold"-->
+<!--                    android:textColor="@color/dongker_blue"-->
+<!--                    android:textSize="12sp"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/desc_detail_workout" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/desc_detail_kalori"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="18dp"-->
+<!--                    android:layout_marginTop="4dp"-->
+<!--                    android:layout_marginEnd="18dp"-->
+<!--                    android:fontFamily="@font/poppins_regular"-->
+<!--                    android:text="@string/desc_informasi_kalori"-->
+<!--                    android:textColor="@color/dongker_blue"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@id/title_kalori_workout"/>-->
+
+                <TextView
+                    android:id="@+id/title_video_gerakan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="18dp"
+                    android:text="@string/video_tutorial_gerakan"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:textColor="@color/dongker_blue"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/desc_detail_workout" />
+
+                <WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="1dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/title_video_gerakan"
+                    tools:ignore="WebViewLayout" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_mulai_workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/yellow_1"
+        android:contentDescription="@string/button_mulai"
+        android:text="@string/button_mulai"
+        android:textColor="@color/dongker_blue"
+        app:icon="@drawable/video"
+        app:iconGravity="textStart"
+        app:iconTint="@color/dongker_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

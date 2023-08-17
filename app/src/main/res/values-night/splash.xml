@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ARFI.MySplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_arfi_vector</item>
+        <item name="postSplashScreenTheme">@style/Theme.ARFI</item>
+    </style>
+
+</resources>
